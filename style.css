@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav_header{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.nav_header {
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    margin: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    transform-origin: center;
+}
+
+.nav_header:hover{
+    background-color: #141618;
+    color: white;
+    transform: scale(1.05) rotate(3deg);
+    box-shadow: 0 8px 15px rgba(250, 248, 248, 0.5);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    min-height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2b2929;
+    box-sizing: border-box;
+    position: relative;
+    gap: 50px;
+}
+
+.about-me__introduction{
+    padding: 20px;
+    margin-left: auto;
+    height: auto;
+    width: 30rem;
+    justify-content: start;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.about-me__introduction h2 {
+    font-family: cursive;
+    font-size: 4rem;
+    color: #e7e6e6;
+}
+
+.about-me__introduction p {
+    color: #979090;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.about-me__introduction:hover {
+    transition: transform 0.6s ease;
+    transform: scale(1.05);
+    box-shadow: 0 2px 6px rgba(252, 249, 249, 0.5);
+}
+
+
+.about-me__button {
+    background-color: #3a3535;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    margin: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    transform-origin: center;
+}
+.about-me__button a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-me__button a:hover {
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(107, 107, 107, 0.5);
+}
+
+figure {
+    width: 300px;
+    height: auto;
+}
+
+figure img {
+    border: 3px solid rgb(121, 110, 110);
+    max-width: 100%;
+    height: auto; 
+    display: block;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-footer__a {
+    padding: 10px;
+    text-decoration: none;
+    color: #2a38ad;
+}
+
+.nav-footer__a:hover {
+    color: #fff;
+}
